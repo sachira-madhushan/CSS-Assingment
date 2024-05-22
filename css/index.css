@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgba(162, 113, 114, 1);
+    height:106px;
+}
+
+.logo{
+    float: left;
+}
+.logo img{
+    padding:10px;
+    padding-left:80px;
+}
+.menu{
+    margin: 40px;
+    float: right;
+}
+
+.menu ul{
+    
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding:10px 50px;
+    border-radius:10px;
+    margin-left:50px;
+}
+
+.menu li:last-child{
+    margin-right: 80px;
+}
+
+
+.about{
+    border: 1px solid rgba(162, 113, 114, 1);
+    padding:50px;
+    margin:80px;
+}
+
+.about h2{
+    color: rgba(162, 113, 114, 1);
+    font-size: 30px;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.dogimage{
+    width:35%;
+    margin:0 auto;
+}
+.form{
+
+    width:33%;
+    margin: 30px auto;
+}
+.form input{
+    width: 400px;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:30px;
+    border:1px solid gray;
+}
+
+.form button{
+    padding:10px 50px;
+    border-radius:10px;
+    border: 1px solid gray;
+}
+
+.bottom{
+    width: 100%;
+    background-color: rgba(125, 128, 119, 1);
+}
+
+.box{
+    color: White;
+    border: 1px solid rgba(255, 241, 241, 1);
+    display: inline-block;
+    margin:78px;
+    padding:20px;
+    width:20%;
+    background-color: rgba(162, 113, 114, 1);
+    border-radius:10px;
+}
+
+.box h2{
+    padding-bottom:20px;
+}
+
+.box h4{
+    padding:10px 0;
+}
